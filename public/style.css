@@ -52,23 +52,36 @@ form div {
   margin: 10px 25px;
 }
 
+#hover-gold:hover {
+  color: #fcbe10;
+}
+
 #about-container {
   display: flex;
   justify-content: center;
+  margin-top: 125px;
 }
 #about-title {
   text-align: center;
   margin-top: 80px;
   margin-bottom: 50px;
   font-size: 30pt;
+  color: #596a78;
 }
 
 #about img {
   width: 400px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #fcbe10;
+  padding: 50px;
 }
 
 #about-paragraph {
-  margin-left: 30px;
+  margin-left: 50px;
+  font-size: 14pt;
+  color: #596a78;
+  width: 500px;
 }
 
 #home-container {
@@ -164,6 +177,22 @@ form div {
 }
 
 #home-title {
-  font-family: 'Noto Sans', sans-serif;
   font-size: 35pt;
+  color: #fcbe10;
+}
+
+#home-name {
+  font-size: 18pt;
+  margin-top: 60px;
+  color: #596a78;
+}
+
+.home-p {
+  font-size: 13pt;
+  color: #596a78;
+}
+
+#location {
+  color: #fcbe10;
+  font-size: 15pt;
 }
