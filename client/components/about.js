@@ -6,7 +6,6 @@ const About = () => (
     <div id="about-container">
       <img src="/headshot.png" id="about-img" />
       <div id="about-paragraph">
-        <div />
         <p>
           Welcome!
           <br />
