@@ -91,9 +91,9 @@ form div {
 
 #resume-download {
   color: #596a78;
-  border-color: #596a78;
+  border-color: #fcbe10;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 5px;
   font-size: 15pt;
   padding: 25px;
@@ -119,16 +119,27 @@ form div {
 .transparent-logo {
   width: 180px;
   margin: 15px;
-  opacity: 0.3;
+  opacity: 0.5;
+}
+
+#stackoverflow {
+  width: 230px;
+  margin: 0 15px 15px 30px;
+  opacity: 0.5;
 }
 
 .transparent-logo:hover {
   opacity: 1;
 }
 
+#stackoverflow:hover {
+  opacity: 1;
+}
+
 #contact-title {
   margin-top: 100px;
-  font-size: 20pt;
+  font-size: 30pt;
+  color: #fcbe10;
 }
 
 #email-title {
@@ -145,31 +156,51 @@ form div {
 #contact-details {
   margin-top: 60px;
   margin-bottom: 60px;
+  color: #596a78;
+  font-size: 15pt;
 }
 
 .skills p {
   margin: 0;
+  width: 250px;
+}
+
+#increase-font {
+  font-size: 15pt;
+  color: #596a78;
 }
 
 .skills-titles {
-  font-size: 15pt;
+  font-size: 20pt;
+  color: #fcbe10;
 }
 
 #project-container {
   text-align: center;
 }
 
-#project-container-title {
-  margin-top: 25px;
-  font-size: 15pt;
+#project-container a {
+  color: #fcbe10;
+  font-size: 14pt;
+  font-weight: 550;
 }
 
-.project {
-  border-style: solid;
-  border-width: 3px;
-  width: 600px;
-  height: 400px;
-  margin: 30px;
+#speakgood-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#project-container-title {
+  margin-top: 70px;
+  font-size: 20pt;
+  color: #596a78;
+  margin-bottom: 70px;
+}
+
+.photo-description {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
 }
 
 #hello {
@@ -195,4 +226,71 @@ form div {
 #location {
   color: #fcbe10;
   font-size: 15pt;
+}
+
+.project-img {
+  width: 850px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #fcbe10;
+  padding: 10px;
+  margin-left: 15px;
+}
+
+.description-details {
+  margin-left: 50px;
+  text-align: left;
+  width: 700px;
+}
+
+.description-details p {
+  color: #596a78;
+  font-size: 14pt;
+}
+
+.description-title {
+  text-align: center;
+  font-size: 18pt;
+  font-weight: 100;
+  color: #596a78;
+  margin-top: 5px;
+}
+
+.make-gold {
+  color: #fcbe10;
+}
+
+#not-found {
+  text-align: center;
+  margin-top: 300px;
+  font-size: 18pt;
+  color: #596a78;
+}
+
+#not-found a {
+  margin-top: 20px;
+  color: #fcbe10;
+}
+
+#overview-vid {
+  text-align: center;
+  margin: 0;
+}
+.media-links {
+  display: flex;
+  justify-content: center;
+}
+.media-links p {
+  margin: 10px 80px;
+}
+
+#speakgood-title {
+  margin: 30px;
+}
+#gutcheck-title {
+  margin: 70px 30px 30px 30px;
+}
+
+#cupcakes-title {
+  margin: 90px 30px 30px 30px;
 }

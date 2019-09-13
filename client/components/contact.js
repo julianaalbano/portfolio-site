@@ -23,10 +23,13 @@ const Contact = () => {
         />
       </a>
       <br />
-      <img
-        id="seattle"
-        src="https://i.pinimg.com/originals/7c/f1/db/7cf1db8b8f61af3cfafa57732c45fb46.png"
-      />
+      <a href="https://stackoverflow.com/story/julianaalbano" target="_blank">
+        <img
+          id="stackoverflow"
+          className="transparent-logo"
+          src="https://i.stack.imgur.com/TpOSj.png"
+        />
+      </a>
     </div>
   )
 }

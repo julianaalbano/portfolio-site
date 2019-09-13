@@ -12,17 +12,15 @@ const Resume = () => {
         Download Resume
       </a>
       <div id="skills-container">
-        <p className="skills-titles">Proficient Skills:</p>
-        <p className="skills">
+        <p className="skills-titles">Proficient Skills</p>
+        <p className="skills" id="increase-font">
           JavaScript, Node, Express, React, Redux, Git, Sequelize, GitHub,
           PostgreSQL, HTML, CSS
         </p>
-        <br />
-        <br />
         <p className="skills-titles" id="familiar-skills">
-          Familiar Skills:
+          Familiar Skills
         </p>
-        <p className="skills">
+        <p className="skills" id="increase-font">
           Socket.IO, PoseNet, IBM Watson, Web Speech API, RecordRTC, SQL,
           jQuery, Ruby, Firebase Storage, Jasmine, Chai, CanvasJS, Heroku,
           Webpack
