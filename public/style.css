@@ -312,7 +312,8 @@ form div {
 }
 
 .project-img {
-  width: 600px;
+  width: auto;
+  height: 300px;
   border-style: solid;
   border-width: 4px;
   border-color: #fcbe10;

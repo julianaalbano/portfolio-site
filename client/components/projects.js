@@ -6,7 +6,7 @@ const Projects = () => {
       <p id="project-container-title">Project Portfolio</p>
       <div id="speakgood" className="project">
         <div className="photo-description">
-          <img src="/speakgood.png" className="project-img" />
+          <img src="/final-speakgood-final.png" className="project-img" />
           <div className="description-details">
             <h6 className="description-title" id="speakgood-title">
               <strong>SpeakGood</strong>
@@ -58,7 +58,7 @@ const Projects = () => {
       </div>
       <div id="gutcheck" className="project">
         <div className="photo-description">
-          <img src="/gutcheck.png" className="project-img" />
+          <img src="/final-gutcheck-final.png" className="project-img" />
           <div className="description-details">
             <h6 className="description-title" id="gutcheck-title">
               <strong>GutCheck</strong>
@@ -103,7 +103,7 @@ const Projects = () => {
       </div>
       <div id="best-cupcakes" className="project">
         <div className="photo-description">
-          <img src="/bestcupcakes.png" className="project-img" />
+          <img src="/final-cupcake-final.png" className="project-img" />
           <div className="description-details">
             <h6 className="description-title" id="cupcakes-title">
               <strong>Best Cupcakes</strong>
