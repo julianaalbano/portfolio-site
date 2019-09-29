@@ -29,15 +29,13 @@ const Resume = () => {
           <p>Heroku</p>
           <p>Webpack</p>
           <p>Socket.IO</p>
-        </div>
-        <p className="skills-titles" id="familiar-skills">
-          Familiar Skills
-        </p>
-        <div className="proficient-details">
-          <p>TensorFlow</p>
-          <p>IBM Watson</p>
           <p>Web Speech API</p>
           <p>RecordRTC</p>
+        </div>
+        <p className="skills-titles">Familiar Skills</p>
+        <div id="familiar-skills" className="proficient-details">
+          <p>TensorFlow</p>
+          <p>IBM Watson</p>
           <p>SQL</p>
           <p>Ruby</p>
           <p>Firebase Storage</p>

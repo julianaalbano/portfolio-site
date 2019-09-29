@@ -157,11 +157,17 @@ form div {
 
 #resume-download:hover {
   background-color: #fcbe10;
+  border-color: #596a78;
 }
 
 #resume-container {
   text-align: center;
   margin-top: 100px;
+}
+
+#familiar-skills {
+  width: 500px;
+  margin: auto auto;
 }
 
 .proficient-details {
@@ -185,11 +191,11 @@ form div {
 }
 
 #skills-container {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-  width: 600px;
+  width: 700px;
 }
 
 .transparent-logo {
@@ -249,6 +255,7 @@ form div {
 .skills-titles {
   font-size: 20pt;
   color: #fcbe10;
+  margin-top: 50px;
 }
 
 #project-container {
