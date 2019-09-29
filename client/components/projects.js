@@ -23,7 +23,8 @@ const Projects = () => {
               specifically created the speech-to-text functionality that counts
               the number of filler words and compiles a transcript for the user,
               rendered the video/audio recording capabilities, created front-end
-              React components, and wrote back-end express routes.
+              React components, and wrote back-end express routes. Built in
+              August 2019.
             </p>
             <p>
               <strong className="make-gold">Technologies Used:</strong>{' '}
@@ -73,7 +74,7 @@ const Projects = () => {
               their students by reviewing a slide or topic one more time if the
               majority of the class feels confused, or can continue forward if
               the majority of the class is feeling good about the material. I
-              was the sole developer of this application.
+              was the sole developer of this application. Built in July 2019.
             </p>
             <p>
               <strong className="make-gold">Technologies Used:</strong>{' '}
@@ -115,7 +116,8 @@ const Projects = () => {
               alike can shop their favorite cupcakes, add to their persistent
               carts, and check out their order. This was a group project - I
               specifically created front-end components and back-end routes to
-              display inventory, the shopping cart, and checkout.
+              display inventory, the shopping cart, and checkout. Built in July
+              2019.
             </p>
             <p>
               <strong className="make-gold">Technologies Used:</strong>{' '}
@@ -134,6 +136,84 @@ const Projects = () => {
               <p>
                 <a
                   href="https://github.com/fantastic-four-grace-shopper/grace-shopper"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project">
+        <div className="photo-description">
+          <img src="/switch-swatch-final.png" className="project-img" />
+          <div className="description-details">
+            <h6 className="description-title" id="cupcakes-title">
+              <strong>Switch Swatch</strong>
+            </h6>
+            <p>
+              <strong className="make-gold">Description:</strong> Switch Swatch
+              is a simple React web application designed to display color
+              swatches. Users can navigate through paginated views of color
+              swatches, can discover new colors by category using the side bar
+              or through the random color generator. I was the sole developer of
+              this web application. Built in September 2019.
+            </p>
+            <p>
+              <strong className="make-gold">Technologies Used:</strong>{' '}
+              JavaScript, Node, Express, Sequelize, PostgreSQL, React, Redux,
+              HTML, CSS
+            </p>
+            <div className="media-links">
+              <p>
+                <a href="https://switch-swatch.herokuapp.com/" target="_blank">
+                  View Online
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/julianaalbano/switch-swatch"
+                  target="_blank"
+                >
+                  View on GitHub
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="project">
+        <div className="photo-description">
+          <img src="/book-mark-finalfinal.png" className="project-img" />
+          <div className="description-details">
+            <h6 className="description-title" id="cupcakes-title">
+              <strong>Book Mark</strong>
+            </h6>
+            <p>
+              <strong className="make-gold">Description:</strong>
+              Book Mark is also a simple React web application that displays
+              information about the current New York Times Bestsellers. I used
+              the external New York Times Books API to bring this web
+              application to life. It displays all of the NYT Bestsellers, the
+              newest and most popular NYT Bestsellers, and users can even filter
+              the Bestsellers by author or category. I was the sole developer of
+              this web application. Built in September 2019.
+            </p>
+            <p>
+              <strong className="make-gold">Technologies Used:</strong>{' '}
+              JavaScript, Node, Express, Sequelize, PostgreSQL, React, Redux,
+              HTML, CSS
+            </p>
+            <div className="media-links">
+              <p>
+                <a href="https://nyt-book-mark.herokuapp.com/" target="_blank">
+                  View Online
+                </a>
+              </p>
+              <p>
+                <a
+                  href="https://github.com/julianaalbano/book-mark"
                   target="_blank"
                 >
                   View on GitHub
