@@ -69,6 +69,62 @@ form div {
   color: #596a78;
 }
 
+.animation-left {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.animation-left p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+
+  /* Apply animation to this element */
+  animation: animation-left 3s;
+}
+/* Move it (define the animation) */
+@keyframes animation-left {
+  0% {
+    transform: translateX(-75%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.animation-right {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+.animation-right p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+
+  /* Apply animation to this element */
+  animation: animation-right 3s;
+}
+/* Move it (define the animation) */
+@keyframes animation-right {
+  0% {
+    transform: translateX(75%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+#heart:hover {
+  color: maroon;
+}
+
 #about img {
   width: 400px;
   border-style: solid;
