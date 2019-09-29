@@ -264,8 +264,12 @@ form div {
 
 #project-container a {
   color: #fcbe10;
-  font-size: 14pt;
+  font-size: 13pt;
   font-weight: 550;
+}
+
+#project-container a:hover {
+  color: #596a78;
 }
 
 #speakgood-links {
@@ -274,16 +278,17 @@ form div {
 }
 
 #project-container-title {
-  margin-top: 70px;
+  margin-top: 50px;
   font-size: 20pt;
   color: #596a78;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .photo-description {
   display: flex;
   justify-content: left;
-  margin: 40px;
+  margin: 40px 40px 75px 40px;
+  padding: 5px 0px;
 }
 
 #hello {
@@ -331,15 +336,16 @@ form div {
 
 .description-details p {
   color: #596a78;
-  font-size: 13pt;
+  font-size: 11.5pt;
+  margin-top: 5px;
 }
 
 .description-title {
   text-align: center;
-  font-size: 18pt;
-  font-weight: 100;
+  font-size: 15pt;
+  font-weight: 00;
   color: #596a78;
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 .make-gold {
@@ -371,12 +377,13 @@ form div {
 }
 
 #speakgood-title {
-  margin: 30px;
+  margin: 0 0 10px 0;
 }
+
 #gutcheck-title {
-  margin: 70px 30px 30px 30px;
+  margin: 15px 30px 30px 30px;
 }
 
 #cupcakes-title {
-  margin: 90px 30px 30px 30px;
+  margin: 30px;
 }
