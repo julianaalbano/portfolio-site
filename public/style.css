@@ -99,9 +99,29 @@ form div {
   padding: 25px;
 }
 
+#resume-download:hover {
+  background-color: #fcbe10;
+}
+
 #resume-container {
   text-align: center;
-  margin-top: 150px;
+  margin-top: 100px;
+}
+
+.proficient-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proficient-details p {
+  color: #596a78;
+  margin: 5px;
+  border-style: solid;
+  border-color: #596a78;
+  border-width: 1px;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 #contact-container {

@@ -6,25 +6,45 @@ const Resume = () => {
       <a
         type="button"
         id="resume-download"
-        href="https://www.dropbox.com/s/ak89ef303dzgd1s/Juliana.Albano-Resume.pdf?dl=0"
+        href="/JulianaAlbano-Resume.pdf"
+        // href="https://www.dropbox.com/s/ak89ef303dzgd1s/Juliana.Albano-Resume.pdf?dl=0"
         target="_blank"
       >
-        Download Resume
+        View Resume
       </a>
       <div id="skills-container">
         <p className="skills-titles">Proficient Skills</p>
-        <p className="skills" id="increase-font">
-          JavaScript, Node, Express, React, Redux, Git, Sequelize, GitHub,
-          PostgreSQL, HTML, CSS
-        </p>
+        <div className="proficient-details">
+          <p>JavaScript</p>
+          <p>Node</p>
+          <p>Express</p>
+          <p>React</p>
+          <p>Redux</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>PostgreSQL</p>
+          <p>Sequelize</p>
+          <p>Git</p>
+          <p>GitHub</p>
+          <p>Heroku</p>
+          <p>Webpack</p>
+          <p>Socket.IO</p>
+        </div>
         <p className="skills-titles" id="familiar-skills">
           Familiar Skills
         </p>
-        <p className="skills" id="increase-font">
-          Socket.IO, PoseNet, IBM Watson, Web Speech API, RecordRTC, SQL,
-          jQuery, Ruby, Firebase Storage, Jasmine, Chai, CanvasJS, Heroku,
-          Webpack
-        </p>
+        <div className="proficient-details">
+          <p>TensorFlow</p>
+          <p>IBM Watson</p>
+          <p>Web Speech API</p>
+          <p>RecordRTC</p>
+          <p>SQL</p>
+          <p>Ruby</p>
+          <p>Firebase Storage</p>
+          <p>Jasmine</p>
+          <p>Chai</p>
+          <p>CanvasJS</p>
+        </div>
       </div>
     </div>
   )
